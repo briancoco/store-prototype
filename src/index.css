@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+.Head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.StoreName {
+  margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+}
+.NavBar {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 50px;
+  margin: 5px;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
+}
+
+.Items div{
+  display: inline-block;
+  width: 250px;
+  height: 250px;
 }
