@@ -1,8 +1,8 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom';
 const Header = () => {
   return (
-    <h1 className='StoreName'>Coco's Store</h1>
+    <h1 className='StoreName'><Link to='/'>Coco's Store</Link></h1>
   )
 }
 

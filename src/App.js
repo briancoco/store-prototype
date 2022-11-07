@@ -29,7 +29,9 @@ function App() {
             <Route index element={<Store 
               items={items}
             />} />
-            <Route path=':id' element={<ItemPage />} />
+            <Route path=':id' element={<ItemPage 
+              items={items}
+            />} />
           </Route>
           <Route path='about' element={<About />} />
         </Route>
