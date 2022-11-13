@@ -5,7 +5,9 @@ const Item = ({item}) => {
   return (
     <div>
         <Link to={`/store/${item.id}`}>
-          <img src={item.image} alt='' width='200px' height='200px'/>
+          <div className='Image'>
+            <img className='ItemIcon' src={item.image} alt='' />
+          </div>
           <p>{item.title.length > 50 ? item.title.slice(0, 51) + '...' : item.title}</p>
           <p>{`$${parseFloat(item.price).toFixed(2)}`}</p>
         </Link>

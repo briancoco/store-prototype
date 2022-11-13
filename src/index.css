@@ -35,8 +35,52 @@ a {
   text-align: center;
 }
 
+.Items {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
 .Items div{
   display: inline-block;
   width: 250px;
   height: 250px;
+}
+
+.Item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Image {
+  height: 150px;
+  width: 150px;
+}
+
+.ItemIcon {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ItemInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 40%;
+}
+
+.ProductImgLarge {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.Cart {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 10px;
 }
